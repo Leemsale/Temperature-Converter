@@ -1,38 +1,46 @@
+body {
+  background-color: #f8db02;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+
+}
+
 .App {
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Jacques Francois Shadow", serif;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  margin: auto 15px;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  margin: auto 5px;
+  font-style: oblique;
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  background-color: #c9f712;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  margin-top: 40px;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+
+
 }
